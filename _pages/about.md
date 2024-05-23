@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: University of Arizona; Technical University of Cluj-Napoca
 
 profile:
   align: right
@@ -18,6 +18,6 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a 4th year PhD student at the University of Arizona. I am broadly interested in natural language processing (NLP) and artificial intelligence (AI). In particular, my PhD thesis is on explainability and interpretability.
+I am a 4th year PhD student at the University of Arizona. I am broadly interested in natural language processing (NLP) and artificial intelligence (AI). In particular, my PhD thesis is on explainability and interpretability with a focus on information extraction. Outside my thesis, I worked on representational learning, (aspect-based) sentiment analysis, reaosning with LLMs and in-context learning.
 
 I am on the job market!
