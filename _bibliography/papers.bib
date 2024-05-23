@@ -8,7 +8,6 @@
   arxiv={2405.00204},
   url={https://arxiv.org/pdf/2405.00204.pdf},
   pdf={https://arxiv.org/pdf/2405.00204.pdf},
-  % order={1},
   note={preprint},
 }
 
@@ -17,7 +16,6 @@
   title={From Words to Numbers: Your Large Language Model Is Secretly A Capable Regressor When Given In-Context Examples},
   author={Robert Vacareanu and Vlad-Andrei Negru and Vasile Suciu and Mihai Surdeanu},
   year={2024},
-  % order={2},
   arxiv={2404.07544},
   url={https://arxiv.org/abs/2404.07544},
   pdf={https://arxiv.org/abs/2404.07544},
@@ -37,7 +35,6 @@
   url={http://arxiv.org/abs/2404.04445},
   pdf={http://arxiv.org/abs/2404.04445},
   abstract = "We introduce a meta dataset for few-shot relation extraction, which includes two datasets derived from existing supervised relation extraction datasets – NYT29 (Takanobu et al. , 2019 ; Nayak and Ng , 2020) and WIKIDATA (Sorokin and Gurevych, 2017) – as well as a few-shot form of the TACRED dataset (Sabo et al., 2021). Importantly, all these few-shot datasets were generated under realistic assumptions such as: the test relations are different from any relations a model might have seen before, limited training data, and a preponderance of candidate relation mentions that do not correspond to any of the relations of interest. Using this large resource, we conduct a comprehensive evaluation of six recent few-shot relation extraction methods, and observe that no method comes out as a clear winner. Further, the overall performance on this task is low, indicating substantial need for future research. We release all versions of the data, i.e., both supervised and few-shot, for future research.",
-  % order={3},
 }
 
 @inproceedings{vacareanu2024ActiveLearningNER,
@@ -53,7 +50,6 @@
   abstract = "We explore multiple important choices that have not been analyzed in conjunction regarding active learning for token classification using transformer networks. These choices are: (i) how to select what to annotate, (ii) decide whether to annotate entire sentences or smaller sentence fragments, (iii) how to train with incomplete annotations at token-level, and (iv) how to select the initial seed dataset. We explore whether annotating at sub-sentence level can translate to an improved downstream performance by considering two different sub-sentence annotation strategies: (i) entity-level, and (ii) token-level. These approaches result in some sentences being only partially annotated. To address this issue, we introduce and evaluate multiple strategies to deal with partially-annotated sentences during the training process. We show that annotating at the sub-sentence level achieves comparable or better performance than sentence-level annotations with a smaller number of annotated tokens. We then explore the extent to which the performance gap remains once accounting for the annotation time and found that both annotation schemes perform similarly.",
   url={https://aclanthology.org/2024.lrec-main.30/}
   pdf={https://aclanthology.org/2024.lrec-main.30/}
-  % order={4},
 }
 
 
@@ -71,7 +67,6 @@
   pdf={https://arxiv.org/pdf/2403.03305.pdf},
   note = "Findings of NAACL 2024 (Poster)",
   abstract = "This paper introduces a novel neuro-symbolic architecture for relation classification (RC) that combines rule-based methods with contemporary deep learning techniques. This approach capitalizes on the strengths of both paradigms: the adaptability of rule-based systems and the generalization power of neural networks. Our architecture consists of two components: a declarative rule-based model for transparent classification and a neural component to enhance rule generalizability through semantic text matching. Notably, our semantic matcher is trained in an unsupervised domain-agnostic way, solely with synthetic data. Further, these components are loosely coupled, allowing for rule modifications without retraining the semantic matcher. In our evaluation, we focused on two few-shot relation classification datasets: Few-Shot TACRED and a Few-Shot version of NYT29. We show that our proposed method outperforms previous state-of-the-art models in three out of four settings, despite not seeing any human-annotated training data. Further, we show that our approach remains modular and pliable, i.e., the corresponding rules can be locally modified to improve the overall model. Human interventions to the rules for the TACRED relation \texttt{org:parents} boost the performance on that relation by as much as 26\% relative improvement, without negatively impacting the other relations, and without retraining the semantic matching component.",
-  % order={5},
 }
 
 
@@ -99,7 +94,6 @@
   pages = "2734--2752",
   note = "EACL 2024 (Oral)",
   abstract = "We explore how weak supervision on abundant unlabeled data can be leveraged to improve few-shot performance in aspect-based sentiment analysis (ABSA) tasks. We propose a pipeline approach to construct a noisy ABSA dataset, and we use it to adapt a pre-trained sequence-to-sequence model to the ABSA tasks. We test the resulting model on three widely used ABSA datasets, before and after fine-tuning. Our proposed method preserves the full fine-tuning performance while showing significant improvements (15.84 absolute F1) in the few-shot learning scenario for the harder tasks. In zero-shot (i.e., without fine-tuning), our method outperforms the previous state of the art on the aspect extraction sentiment classification (AESC) task and is, additionally, capable of performing the harder aspect sentiment triplet extraction (ASTE) task.",
-  % order={6},
 }
 
 @inproceedings{varia-etal-2023-instruction,
@@ -129,7 +123,6 @@
   doi = "10.18653/v1/2023.wassa-1.3",
   pages = "19--27",
   abstract = "Aspect-based Sentiment Analysis (ABSA) is a fine-grained sentiment analysis task which involves four elements from user-generated texts:aspect term, aspect category, opinion term, and sentiment polarity. Most computational approaches focus on some of the ABSA sub-taskssuch as tuple (aspect term, sentiment polarity) or triplet (aspect term, opinion term, sentiment polarity) extraction using either pipeline or joint modeling approaches. Recently, generative approaches have been proposed to extract all four elements as (one or more) quadrupletsfrom text as a single task. In this work, we take a step further and propose a unified framework for solving ABSA, and the associated sub-tasksto improve the performance in few-shot scenarios. To this end, we fine-tune a T5 model with instructional prompts in a multi-task learning fashion covering all the sub-tasks, as well as the entire quadruple prediction task. In experiments with multiple benchmark datasets, we show that the proposed multi-task prompting approach brings performance boost (by absolute 8.29 F1) in the few-shot learning setting.",
-  % order={7},
 }
 
 
@@ -158,7 +151,6 @@
   pdf={https://aclanthology.org/2022.pandl-1.10},
   pages = "85--93",
   abstract = "We propose a neural-based approach for rule synthesis designed to help bridge the gap between the interpretability, precision and maintainability exhibited by rule-based information extraction systems with the scalability and convenience of statistical information extraction systems. This is achieved by avoiding placing the burden of learning another specialized language on domain experts and instead asking them to provide a small set of examples in the form of highlighted spans of text. We introduce a transformer-based architecture that drives a rule synthesis system that leverages a self-supervised approach for pre-training a large-scale language model complemented by an analysis of different loss functions and aggregation mechanisms for variable length sequences of user-annotated spans of text. The results are encouraging and point to different desirable properties, such as speed and quality, depending on the choice of loss and aggregation method.",
-  % order={8},
 }
 
 
@@ -171,7 +163,6 @@
   abstract="{In this paper we revisit the direction of using lexico-syntactic patterns for relation extraction instead of today's ubiquitous neural classifiers. We propose a semi-supervised graph-based algorithm for pattern acquisition that scores patterns and the relations they extract jointly, using a variant of PageRank. We insert light supervision in the form of seed patterns or relations, and model it with several custom teleportation probabilities that bias random-walk scores of patterns/relations based on their proximity to correct information. We evaluate our approach on Few-Shot TACRED, and show that our method outperforms (or performs competitively with) more expensive and opaque deep neural networks. Lastly, we thoroughly compare our proposed approach with the seminal RlogF pattern acquisition algorithm of, showing that it outperforms it for all the hyper parameters tested, in all settings. }",
   url = {https://aclanthology.org/2022.pandl-1.1.pdf},
   year = {2022},
-  % order={9},
 }
 
 @article{Vacareanu2022AHI,
@@ -182,7 +173,6 @@
   abstract = "{We propose a system that assists a user in constructing transparent information extraction models, consisting of patterns (or rules) written in a declarative language, through program synthesis.Users of our system can specify their requirements through the use of examples,which are collected with a search interface.The rule-synthesis system proposes rule candidates and the results of applying them on a textual corpus; the user has the option to accept the candidate, request another option, or adjust the examples provided to the system.Through an interactive evaluation, we show that our approach generates high-precision rules even in a 1-shot setting. On a second evaluation on a widely-used relation extraction dataset (TACRED), our method generates rules that outperform considerably manually written patterns.Our code, demo, and documentation is available at https://clulab.github.io/odinsynth.}",
   url = {https://aclanthology.org/2022.naacl-demo.8.pdf},
   year = {2022},
-  % order={10},
 }
 
 @inproceedings{vacareanu2022synthlrec,
@@ -194,7 +184,6 @@
   arxiv={2202.00475},
   url={https://arxiv.org/abs/2202.00475},
   pdf={https://arxiv.org/abs/2202.00475},
-  % order={11},
 }
 
 @patent{surdeanu2021synthesizerules,
@@ -204,7 +193,6 @@
   year = {2021},
   nationality = {US},
   number = {17/344,774},
-  % order={12},
 }
 
 @inproceedings{vacareanu2020mwe,
@@ -215,15 +203,13 @@
   url={http://clulab.org/papers/coling2020-mwe.pdf},
   pdf={http://clulab.org/papers/coling2020-mwe.pdf},
   year={2020},
-  % order={13},
 }
 
-@InProceedings{vacareanu2020parsing,
+@inproceedings{vacareanu2020parsing,
   abbr={LREC2020},
   author = {Robert Vacareanu and George C. G. Barbosa and Marco A. Valenzuela-Escarcega and Mihai Surdeanu},
   title = {Parsing as Tagging},
   booktitle = {Proceedings of the 12th International Conference on Language Resources and Evaluation (LREC)},
   year = {2020},
   url = {http://clulab.org/papers/pat.pdf},
-  % order={14},
 }
